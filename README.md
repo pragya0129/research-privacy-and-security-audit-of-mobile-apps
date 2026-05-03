@@ -34,13 +34,13 @@ The study focuses on:
 
 ```
 ├── dataset/
-│   Raw analysis data (MobSF outputs / JSON files)
+│   Analysis data (Extracted Features)
 │
 ├── result graphs/
 │   Generated graphs and visualizations
 │
 ├── compare (7).ipynb
-│   Jupyter Notebook for comparison and analysis
+│   Google Colab Notebook for comparison and analysis
 │
 ├── parse_json.py
 │   Parses Android JSON reports
@@ -49,13 +49,13 @@ The study focuses on:
 │   Parses iOS JSON reports
 │
 ├── save_json.py
-│   Utility to clean/store processed data
+│   Save MobSF results as json
 │
 ├── save_scorecard.py
-│   Generates standardized security scorecards
+│   Save MobSF Scorecard
 │
 ├── reviews.py
-│   Analysis of extracted features / metrics
+│   User perception analysis of google play store reviews
 │
 ├── Research Paper.pdf
 │   Final research paper
